@@ -8,7 +8,7 @@ const ContactUs = (props: Props) => {
       <div className="container">
         <div className="d-none d-sm-block mb-5 pb-4">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23833.85716245098!2d-73.95454906767618!3d41.69392397071829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd3e642be0bb3b%3A0x5ea85debfb20f349!2sPoughkeepsie%2C%20NY%2C%20USA!5e0!3m2!1sen!2sph!4v1681066121731!5m2!1sen!2sph"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23833.85716245098!2d73.9187064!3d18.6734842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c7e114221d41%3A0xa53c859f6b71d01b!2sDman+steel+Fab+Pvt+Ltd!5e0!3m2!1sen!2sph!4v1681066121731!5m2!1sen!2sph"
             width="100%"
             height="450"
             style={{ border: 0 }}
@@ -89,8 +89,8 @@ const ContactUs = (props: Props) => {
                 <i className="ti-home"></i>
               </span>
               <div className="media-body">
-                <h3>Buttonwood, California.</h3>
-                <p>Rosemead, CA 91770</p>
+                <h3>Dman steel Fab Pvt Ltd.</h3>
+                <p>Sr no 250, Alandi-Markal Rd</p>
               </div>
             </div>
             <div className="media contact-info">
@@ -99,9 +99,9 @@ const ContactUs = (props: Props) => {
               </span>
               <div className="media-body">
                 <h3>
-                  <a href="tel:454545654">00 (440) 9865 562</a>
+                  <a href="tel:+919604463765">+91 9604463765</a>
                 </h3>
-                <p>Mon to Fri 9am to 6pm</p>
+                <p> 8.30 to 6.30pm</p>
               </div>
             </div>
             <div className="media contact-info">
@@ -109,18 +109,14 @@ const ContactUs = (props: Props) => {
                 <i className="ti-email"></i>
               </span>
               <div className="media-body">
-                <h3>
-                  <a href="/cdn-cgi/l/email-protection#c9babcb9b9a6bbbd89aaa6a5a6bba5a0abe7aaa6a4">
-                    <span
-                      className="__cf_email__"
-                      data-cfemail="89fafcf9f9e6fbfdc9eae6e5e6fbe5e0eba7eae6e4"
-                    >
-                      [email&#160;protected]
-                    </span>
-                  </a>
-                </h3>
-                <p>Send us your query anytime!</p>
-              </div>
+              <h3>
+                <a href="mailto:sales@dmansteelfab.in">
+                  sales@dmansteelfab.in
+                </a>
+              </h3>
+              <p>Send us your query anytime!</p>
+            </div>
+
             </div>
           </div>
         </div>
