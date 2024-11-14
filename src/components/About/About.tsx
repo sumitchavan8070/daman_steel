@@ -28,7 +28,7 @@ const About = (props: Props) => {
                   <br /> seasons very may heaven saying. Fly image th
                 </p>
                 <a className="main_btn" href="#">
-                  learn more
+                  Get A QUOTE
                 </a>
               </div>
             </div>

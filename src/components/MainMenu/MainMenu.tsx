@@ -27,9 +27,9 @@ const MainMenu = (props: Props) => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
+            {/* <span className="icon-bar"></span>
             <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
+            <span className="icon-bar"></span> */}
           </button>
 
           <div
@@ -57,7 +57,7 @@ const MainMenu = (props: Props) => {
                   Projects
                 </Link>
               </li>
-              <li className="nav-item submenu dropdown">
+              {/* <li className="nav-item submenu dropdown">
                 <a
                   href="#"
                   className="nav-link dropdown-toggle"
@@ -68,7 +68,7 @@ const MainMenu = (props: Props) => {
                 >
                   Blog
                 </a>
-                <ul className="dropdown-menu">
+                {/* <ul className="dropdown-menu">
                   <li className={`nav-item ${isActive('/blog')}`}>
                     <Link className="nav-link" href="/blog">
                       Blog
@@ -79,8 +79,8 @@ const MainMenu = (props: Props) => {
                       Blog Details
                     </Link>
                   </li>
-                </ul>
-              </li>
+                </ul> */}
+              {/* </li>  */}
               <li className={`nav-item ${isActive('/contact')}`}>
                 <Link className="nav-link" href="/contact">
                   Contact
