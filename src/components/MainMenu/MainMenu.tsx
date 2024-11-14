@@ -44,6 +44,7 @@ const MainMenu = (props: Props) => {
               </li>
               <li className={`nav-item ${isActive('/about-us')}`}>
                 <Link className="nav-link" href="/about-us">
+                {/* <Link className="nav-link" href="/sign_up"> */}
                   About
                 </Link>
               </li>
